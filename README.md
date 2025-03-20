@@ -6,11 +6,15 @@ Crea una lista di email di invitati ad una festa. Chiedi all’utente la sua ema
 
 Mail, sotto-problemi:
 
-[CONST-ARRAY] Prima Variabile - Creo un'ARRAY con all'interno delle stringhe (Email degli invitati);
-[LET-PROMPT] Seconda Variabile - Con un PROMPT vado a chiedere all'utente la sua Email;
-[FOR] Terza Variabile - Con un ciclo FOR vado a cercare nell'ARRAY (invitedEmails);
-Cosa cerco? [IF] Se l'utente ha inserito un'email uguale a uno dei valori di (invitedEmails) allora stampo un valore booleano (True)
-[ELSE] Altrimmenti stampo un valore booleano (False) per le altre email.
+(invitedEmails) - Creo una variabile [CONST] con un'[ARRAY] che ha all'interno delle [string] Email invitati;
+
+Creo una variabile [LET] con un [PROMPT] che va a chiedere all'utente la sua Email[string];
+
+Con un ciclo [FOR] vado a cercare nell'[CONST-ARRAY](invitedEmails);
+
+Cosa cerco? [IF] Se l'utente ha inserito un'email uguale a uno dei valori di (invitedEmails) allora stampo un valore booleano (True);
+
+[ELSE] Altrimmenti stampo un valore booleano (False) per le altre email;
 
 Gioco dei dadi:
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
