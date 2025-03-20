@@ -14,7 +14,7 @@ Con un ciclo [FOR] vado a cercare nell'[CONST-ARRAY](invitedEmails);
 
 Cosa cerco? [IF] Se l'utente ha inserito un'email diversa[!=] da uno dei valori di (userEmail) allora stampo un valore booleano [False], ciò vuoldire che l'email inserità dall'utente non è presente nella lista (invitedEmails[i]);
 
-[ELSE] Altrimenti stampo un valore booleano [True], ciò vuoldire che l'email inserità dall'utente è presente della lista (invitedEmails[i]);
+[ELSE] Altrimenti stampo un valore booleano [True], ciò vuoldire che l'email inserità dall'utente è presente nella lista (invitedEmails[i]);
 
 <!-- Domande:
 
