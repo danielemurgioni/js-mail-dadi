@@ -8,13 +8,13 @@ Mail, sotto-problemi:
 
 (invitedEmails) - Creo una variabile [CONST] con un'[ARRAY] che ha all'interno delle [string] Email invitati;
 
-Creo una variabile [LET] con un [PROMPT] che va a chiedere all'utente la sua Email[string];
+(userEmail) - Creo una variabile [LET] con un [PROMPT] che va a chiedere all'utente la sua Email[string];
 
 Con un ciclo [FOR] vado a cercare nell'[CONST-ARRAY](invitedEmails);
 
-Cosa cerco? [IF] Se l'utente ha inserito un'email uguale a uno dei valori di (invitedEmails) allora stampo un valore booleano (True);
+Cosa cerco? [IF] Se l'utente ha inserito un'email diversa[!=] da uno dei valori di (userEmail) allora stampo un valore booleano [False], ciò vuoldire che l'email inserità dall'utente non è presente nella lista (invitedEmails[i]);
 
-[ELSE] Altrimmenti stampo un valore booleano (False) per le altre email;
+[ELSE] Altrimenti stampo un valore booleano [True], ciò vuoldire che l'email inserità dall'utente è presente della lista (invitedEmails[i]);
 
 Gioco dei dadi:
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
