@@ -16,6 +16,8 @@ for(let i=0; i<invitedEmails.length; i++){
 
 //DICE GAME
 
-let sixfaceDice = Math.floor((Math.random() * 6)+1);
+const playerDice = Math.floor((Math.random() * 6)+1);
 
-console.log(sixfaceDice)
+const computerDice = Math.floor((Math.random() * 6)+1);
+
+console.log(playerDice, computerDice)

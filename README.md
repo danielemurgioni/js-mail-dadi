@@ -16,15 +16,31 @@ Cosa cerco? [IF] Se l'utente ha inserito un'email diversa[!=] da uno dei valori 
 
 [ELSE] Altrimenti stampo un valore booleano [True], ciò vuoldire che l'email inserità dall'utente è presente della lista (invitedEmails[i]);
 
+<!-- Domande:
+
+ 1- Come faccio a stampare solo il valore booleano di userEmail?
+
+ 2- Come faccio a stampare i valori booleani prima di userEmail (userEmail compreso), c'è un modo per fermare il ciclo? 
+-->
+
 Gioco dei dadi:
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
 Prima di partire a scrivere codice poniamoci qualche domanda: Che ci sia un array da qualche parte? Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
-Gioco dei dadi, sotto-problemi:
+<!-- "Errori":
+
+ Ottengo sempre lo stesso risultato per tutti e due i giocatori in questo modo 
+-->
 
 (sixfaceDice) - Creo una variabile [LET] con [MATH.] per ottenere un valore [number] da 1 a 6;
 
 (playerDice) (computerDice) - Creo due variabili [CONST] a cui assegno[=] (sixfaceDice), una rappresenta il dado del giocatore e l'altra il dado del computer;
+
+<!--------------------->
+
+Gioco dei dadi, sotto-problemi:
+
+(playerDice) (computerDice) - Creo due variabili [CONST] a cui assegno[=] [MATH.random] una rappresenta il dado del giocatore e l'altra il dado del computer;
 
 Chi ha vinto? [IF] Se il valore di (playerDice) è maggiore[>] del valore di (computerDice) [{}] Allora stampo[console.log] il messaggio ["Hai_vinto"];
 
