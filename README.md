@@ -44,6 +44,8 @@ Gioco dei dadi, sotto-problemi:
 
 Chi ha vinto? [IF] Se il valore di (playerDice) è maggiore[>] del valore di (computerDice) [{}] Allora stampo[console.log] il messaggio ["Hai_vinto"];
 
+[ELSE-IF] Altrimenti stampo[console.log] il messaggio ["Parità"];
+
 [ELSE] Altrimenti stampo[console.log] il messaggio ["Hai_perso];
 
 Numero minimo di push: 6

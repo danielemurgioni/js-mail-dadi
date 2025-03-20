@@ -23,6 +23,9 @@ const computerDice = Math.floor((Math.random() * 6)+1);
 if(playerDice>computerDice){
     console.log(`Your result is ${playerDice}, against ${computerDice}. You won!`)
 }
+else if(playerDice === computerDice){
+    console.log(`Your result is ${playerDice}, against ${computerDice}. It's a draw!`)
+}
 else{
     console.log(`Your result is ${playerDice}, against ${computerDice}. You lose!`)
 }
